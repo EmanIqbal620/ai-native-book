@@ -3,7 +3,7 @@ class ChatbotService {
   constructor() {
     // In a real implementation, this would connect to your actual RAG backend
     // For now, this is a placeholder that simulates the API
-    this.baseUrl = process.env.RAG_API_URL || 'http://localhost:8000/api';
+    this.baseUrl = process.env.RAG_API_URL || 'https://emaniqbal-book.hf.space/api';
   }
 
   async sendMessage(message) {

@@ -8,7 +8,7 @@
 (function() {
   // Configuration — uses window.CHAT_WIDGET_CONFIG if available (from chat-config.js)
   const CONFIG = Object.assign({
-    apiBaseUrl: 'http://localhost:8000/api/v1',
+    apiBaseUrl: 'https://emaniqbal-book.hf.space/api/v1',
     widgetId: 'terminal-chat-widget',
     buttonId: 'terminal-chat-button',
     panelId: 'terminal-chat-panel',
